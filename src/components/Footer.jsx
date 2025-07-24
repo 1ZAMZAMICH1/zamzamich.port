@@ -23,9 +23,9 @@ function Footer() {
         <a href="mailto:zmgarik@gmail.com">zmgarik@gmail.com</a>
         <a href="tel:+77021582932">+7 (702) 158-29-32</a>
         <div className={styles.socials}>
-          <a href="https://t.me/zamzamich" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
-          <a href="https://vk.com/zamzamich" target="_blank" rel="noopener noreferrer"><FaVk /></a>
-          <a href="https://instagram.com/zamzamich.dev" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="https://t.me/+77021582932" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
+          <a href="https://vk.com/minerofyourhearts" target="_blank" rel="noopener noreferrer"><FaVk /></a>
+          <a href="https://www.instagram.com/mcciahha.oos" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         </div>
         <p className={styles.location}>Шымкент</p>
       </div>

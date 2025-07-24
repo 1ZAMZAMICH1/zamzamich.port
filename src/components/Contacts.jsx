@@ -6,34 +6,38 @@ const contacts = [
   { 
     network: 'telegram', 
     icon: <FaTelegramPlane />, 
-    name: 'Эдгар Штромаер', 
-    handle: '@zamzamich', 
-    link: 'https://t.me/zamzamich',
-    actionText: 'Написать сообщение' 
+    name: '𝗺𝗰𝗰𝗶𝗮𝗵𝗵𝗮.𝗲𝗲𝗽✞ɢ̷̘͙͇͖͛̇̑͗͌͜͝l̴̡̡̨̲̠͕ ̘̪̖͍͗̓̕i̶̡̢̡̺͍̜̟̲͇̰̦̯̎̀̏̄̀́͊́͆̇̎̓̕͜͝ṫ̷̢', 
+    handle: '@𝗺𝗰𝗰𝗶𝗮𝗵𝗵𝗮.𝗲𝗲𝗽✞', 
+    link: 'https://t.me/+77021582932',
+    actionText: 'Написать сообщение',
+    avatar: '/tel.png',
   },
   { 
     network: 'whatsapp', 
     icon: <FaWhatsapp />, 
-    name: '+7 (XXX) XXX-XX-XX', 
-    handle: 'Business Account', 
-    link: 'https://wa.me/7XXXXXXXXXX',
-    actionText: 'Начать чат' 
+    name: 'Эдгарюша🖤', 
+    handle: 'Account', 
+    link: 'https://wa.me/+77021582932',
+    actionText: 'Начать чат',
+    avatar: '/vk.png',
   },
   { 
     network: 'vk', 
     icon: <FaVk />, 
-    name: 'Эдгар Штромаер', 
-    handle: 'vk.com/zamzamich', 
-    link: 'https://vk.com/zamzamich',
-    actionText: 'Перейти в профиль' 
+    name: '刁丑厂卂尸 山丅尸口从卂乇尸', 
+    handle: 'vk.com/minerofyourhearts', 
+    link: 'https://vk.com/minerofyourhearts',
+    actionText: 'Перейти в профиль',
+    avatar: '/vk.png', 
   },
   { 
     network: 'instagram', 
     icon: <FaInstagram />, 
-    name: 'Edgar Shtromaer', 
-    handle: '@zamzamich.dev', 
-    link: 'https://instagram.com/zamzamich.dev',
-    actionText: 'Подписаться' 
+    name: 'МЛАДШИЙ ЛЕЙТЕНАНТ🖤', 
+    handle: '@mcciahha.oos', 
+    link: 'https://www.instagram.com/mcciahha.oos',
+    actionText: 'Подписаться',
+    avatar: '/inst.png',
   },
 ];
 
@@ -50,7 +54,7 @@ function Contacts() {
             </div>
             <div className={styles.cardHeader}>
               <div className={styles.avatar}>
-                <img src="/avatar.png" alt="Аватар" />
+              <img src={contact.avatar ? contact.avatar : "/avatar.png"} alt="Аватар" />
               </div>
               <div className={styles.userInfo}>
                 <p className={styles.userName}>{contact.name}</p>
